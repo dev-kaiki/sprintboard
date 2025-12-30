@@ -1,4 +1,24 @@
-# SprintBoard — Kanban (Trello-like) + Realtime + RBAC
+﻿<div align="center">
+
+# sprintboard
+
+<a href="https://dev-kaiki-sprintboard.vercel.app"><img src="https://img.shields.io/badge/LIVE%20DEMO-Vercel-111?style=for-the-badge&logo=vercel&logoColor=white"></a>
+<a href="https://dev-kaiki-sprintboard-api.onrender.com/docs"><img src="https://img.shields.io/badge/SWAGGER-API%20Docs-111?style=for-the-badge&logo=swagger&logoColor=white"></a>
+<a href="https://github.com/dev-kaiki/sprintboard"><img src="https://img.shields.io/badge/REPO-GitHub-111?style=for-the-badge&logo=github&logoColor=white"></a>
+
+</div>
+
+## Quick Links
+- Live: https://dev-kaiki-sprintboard.vercel.app
+- Swagger: https://dev-kaiki-sprintboard-api.onrender.com/docs
+
+## Deploy (1-click)
+- Deploy API (Render): https://render.com/deploy?repo=https://github.com/dev-kaiki/sprintboard
+- Deploy Web (Vercel): https://vercel.com/new/clone?repository-url=https://github.com/dev-kaiki/sprintboard
+
+---
+
+# SprintBoard â€” Kanban (Trello-like) + Realtime + RBAC
 
 [![CI](https://github.com/dev-kaiki/sprintboard/actions/workflows/ci.yml/badge.svg)](https://github.com/dev-kaiki/sprintboard/actions/workflows/ci.yml)
 ![Next](https://img.shields.io/badge/next.js-14-222?logo=next.js)
@@ -6,7 +26,7 @@
 ![Postgres](https://img.shields.io/badge/postgres-16-222?logo=postgresql)
 ![Docker](https://img.shields.io/badge/docker-ready-222?logo=docker)
 
-Projeto “flagship” do portfólio: Kanban estilo Trello com **drag-and-drop**, colaboração e updates em tempo real.
+Projeto â€œflagshipâ€ do portfÃ³lio: Kanban estilo Trello com **drag-and-drop**, colaboraÃ§Ã£o e updates em tempo real.
 
 > **Status atual:** repo criado a partir do template (API + Web + Postgres).  
 > Endpoints prontos: `/health`, `/users` e Swagger `/docs`.  
@@ -14,20 +34,21 @@ Projeto “flagship” do portfólio: Kanban estilo Trello com **drag-and-drop**
 
 ---
 
-## ✅ Roadmap (MVP do demo)
+## âœ… Roadmap (MVP do demo)
 - [ ] Workspaces + membros
 - [ ] Boards/Columns/Cards
 - [ ] Drag-and-drop no frontend
-- [ ] Realtime (WebSocket) para movimentações/comentários
+- [ ] Realtime (WebSocket) para movimentaÃ§Ãµes/comentÃ¡rios
 - [ ] RBAC por workspace (admin/member/viewer)
-- [ ] Auditoria de mudanças
+- [ ] Auditoria de mudanÃ§as
 
 ---
 
-## ▶️ Rodar local
+## â–¶ï¸ Rodar local
 ```powershell
 corepack enable
 corepack prepare pnpm@latest --activate
 
 pnpm install
 docker compose up -d
+
